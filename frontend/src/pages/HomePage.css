@@ -1,0 +1,143 @@
+body {
+  background-color: #fff7ed;
+  color: #1f2937;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff4e6;
+  border-bottom: 2px solid #f97316;
+}
+.menu-button button {
+  font-size: 1.1rem;
+  background-color: #f97316;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+}
+.menu-button button:hover {
+  background-color: #ea580c;
+}
+.user-profile {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #f97316;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.user-profile span {
+  margin-right: 10px;
+}
+.user-profile button {
+  padding: 0.5rem 1.2rem;
+  background-color: #f97316;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.user-profile button:hover {
+  background-color: #ea580c;
+}
+.home-left {
+  flex: 1;
+  padding: 2rem;
+  background-color: #fff4e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.calendar-image {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 1rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem;
+}
+.date-time {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+.quotes {
+  color: #ea580c;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.6;
+}
+.home-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth-box {
+  background-color: white;
+  border: 2px solid #f97316;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.auth-box h2 {
+  color: #f97316;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.auth-box p {
+  margin-bottom: 1.5rem;
+  color: #1f2937;
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn.orange {
+  background-color: #f97316;
+  color: white;
+  border: none;
+}
+.btn.orange:hover {
+  background-color: #ea580c;
+}
+.btn.white {
+  background-color: white;
+  color: #ea580c;
+  border: 2px solid #ea580c;
+}
+.btn.white:hover {
+  background-color: #fff7ed;
+}
+.user-logout-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.user-name {
+  font-weight: bold;
+  font-size: 16px;
+}

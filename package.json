@@ -1,0 +1,25 @@
+{
+  "name": "oosemini",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "type": "module",
+  "description": "Full-stack project with separate frontend and backend folders",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && nodemon server.js",
+    "client": "cd frontend && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "concurrently": "^8.2.0"
+  }
+}
